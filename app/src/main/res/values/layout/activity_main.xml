@@ -1,0 +1,59 @@
+xml version=1.0 encoding=utf-8
+LinearLayout xmlnsandroid=httpschemas.android.comapkresandroid
+    androidlayout_width=match_parent
+    androidlayout_height=match_parent
+    androidorientation=vertical
+    androidpadding=16dp
+
+    TextView
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidtext=Eden 存档导入导出工具
+        androidtextSize=18sp
+        androidtextStyle=bold 
+
+    TextView
+        androidid=@+idtvPath
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidpaddingTop=6dp
+        androidpaddingBottom=12dp
+        androidtextColor=#666666
+        androidtextSize=12sp
+        toolsignore=HardcodedText 
+
+    Button
+        androidid=@+idbtnGrant
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidtext=① 授予所有文件访问权限 
+
+    Button
+        androidid=@+idbtnExport
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidtext=② 导出存档为 ZIP 
+
+    Button
+        androidid=@+idbtnImport
+        androidlayout_width=match_parent
+        androidlayout_height=wrap_content
+        androidtext=③ 从 ZIP 导入存档 
+
+    ScrollView
+        androidlayout_width=match_parent
+        androidlayout_height=0dp
+        androidlayout_weight=1
+        androidlayout_marginTop=12dp
+        androidbackground=#F5F5F5
+        androidpadding=8dp
+
+        TextView
+            androidid=@+idtvLog
+            androidlayout_width=match_parent
+            androidlayout_height=wrap_content
+            androidfontFamily=monospace
+            androidtextSize=12sp 
+    ScrollView
+
+LinearLayout
